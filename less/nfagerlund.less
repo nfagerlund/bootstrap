@@ -11,6 +11,18 @@ b, strong {
   font-weight: @font-weight-bold;
 }
 
+a {
+  // Code spans in links are link-colored
+  code {
+    color: inherit;
+  }
+
+  // Set a visited link color (out of fashion, but has never been a bad idea).
+  &:visited {
+    color: @brand-dimmed;
+  }
+}
+
 /* Skip that table.table thing, man */
 /* -------------------------------- */
 
