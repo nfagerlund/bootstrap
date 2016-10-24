@@ -23,8 +23,19 @@ a {
   }
 }
 
-#content img {
-  max-width: 100%
+/* Some stuff that should probably only happen in the main content div */
+
+#content {
+  img {
+    max-width: 100%;
+  }
+  ol ol {
+    list-style-type: lower-alpha;
+  }
+  ol ol ol {
+    list-style-type: lower-roman;
+  }
+
 }
 
 /* Skip that table.table thing, man */
